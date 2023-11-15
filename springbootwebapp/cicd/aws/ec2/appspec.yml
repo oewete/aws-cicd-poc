@@ -1,0 +1,13 @@
+version: 0.0
+os: linux
+files:
+  - source: springbootwebapp-0.0.1-SNAPSHOT.jar
+    destination: /springbootwebapp/
+hooks:
+  ApplicationStart:
+    - location: start_server.sh
+      timeout: 300
+  ApplicationStop:
+    - location: stop_server.sh
+      timeout: 300
+
