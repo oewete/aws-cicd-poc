@@ -6,7 +6,7 @@ phases:
        - cd springbootwebapp && mvn package
 artifacts:
   files:
-    - springbootwebapp/target/springbootwebapp-0.0.1-SNAPSHOT.jar
+    - springbootwebapp/target/springbootwebapp-0.0.2-SNAPSHOT.jar
     - springbootwebapp/cicd/aws/ec2/scripts/start_server.sh
     - springbootwebapp/cicd/aws/ec2/scripts/stop_server.sh
     - springbootwebapp/cicd/aws/ec2/appspec.yml
