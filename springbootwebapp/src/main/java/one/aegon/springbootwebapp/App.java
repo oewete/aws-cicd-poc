@@ -20,7 +20,7 @@ class HelloWorld {
 
     @RequestMapping("/")
     public String sayHi() {
-        return "Hello World!";
+        return "Hello AEGON to the World!";
     }
 }
 

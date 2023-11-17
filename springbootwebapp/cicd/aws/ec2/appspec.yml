@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: springbootwebapp-0.0.1-SNAPSHOT.jar
+  - source: springbootwebapp-0.0.2-SNAPSHOT.jar
     destination: /springbootwebapp/
 hooks:
   ApplicationStart:
